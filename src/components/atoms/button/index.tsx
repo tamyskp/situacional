@@ -4,12 +4,12 @@ import './style.scss';
 function Button(props:any) {
     const children = props.children;
     const type = props.type;
-    const action = props.action;
+    const href = props.href;
 
     return (
-        <button className={type === 'primary' ? 'btn-primary' : 'btn-secondary'} onClick={action}>
+        <a className={type === 'primary' ? 'btn-primary' : 'btn-secondary'} href={href}>
             {children}
-        </button>
+        </a>
     )
 }
 

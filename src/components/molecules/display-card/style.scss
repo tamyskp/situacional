@@ -1,0 +1,29 @@
+a.display-card {
+    height: 100%;
+    background: var(--theme);
+    padding: 1.5em;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-left: 1px solid var(--theme-lighten);
+    z-index: 0;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    &:after{
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: var(--theme-darken);
+        position: absolute;
+        top: -100%;
+        left: 0;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        z-index: -1;
+    }
+    &:hover:after {
+        width: 100%;
+        top: 0;
+    }
+}
