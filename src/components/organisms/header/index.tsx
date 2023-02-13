@@ -5,8 +5,6 @@ import './style.scss';
 import Logo from "../../atoms/logo"
 import Button from "../../atoms/button"
 
-
-
 function header() {
     return (
         <div className="header">
