@@ -1,0 +1,25 @@
+.btn {
+    display: block;
+    padding: 0.5em 1.25em;
+    font-size: 14px;
+    width: max-content;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: all 0.3s;
+    position: relative;
+    border: 2px solid var(--interaction);
+    &-primary {
+        @extend .btn;
+        background: var(--interaction);
+        color: #fff;
+    }
+    &-secondary {
+        @extend .btn;
+        background: transparent;
+        color: var(--interaction);
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,19 @@
+.input {
+  color: var(--highlight);
+  background: transparent;
+  border: none;
+  padding: 0.2em 0 0.5em 0;
+  border-bottom: 1px solid var(--theme-lighten);
+  width: 100%;
+  position: relative;
+  &::-webkit-input-placeholder {
+    color: --theme-lighten;
+  }
+  &-label {
+    display: block;
+  }
+  &-holder {
+    position: relative;
+    margin-bottom: 1em;
+  }
+}
