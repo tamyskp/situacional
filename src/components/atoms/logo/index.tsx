@@ -1,10 +1,11 @@
 import React from "react";
 import './style.scss';
 
-function Logo() {
+function Logo(props:any) {
+    const isWhite = props.isWhite;
 
     return (
-        <div className="logo">
+        <div className={`logo ${isWhite ? 'white' : ''}`}>
             Situacional
         </div>
     )
