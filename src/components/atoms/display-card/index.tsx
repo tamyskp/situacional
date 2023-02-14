@@ -8,7 +8,7 @@ function DisplayCard(props:any) {
     const route = props.route;
     return (
         <a href={route} className="display-card">
-            <span>{children}</span>
+            {children}
             <h3>{title}</h3>
             <p>{text}</p>
         </a>

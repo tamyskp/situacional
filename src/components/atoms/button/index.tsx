@@ -3,13 +3,15 @@ import './style.scss';
 
 function Button(props:any) {
     const children = props.children;
-    const type = props.type;
+    const primary = props.primary;
+    const big = props.big;
     const href = props.href;
 
     return (
-        <a className={type === 'primary' ? 'btn-primary' : 'btn-secondary'} href={href}>
+        <a className={`btn ${primary ? 'btn-primary' : ''} ${big ? 'btn-big' : ''}`} href={href}>
             {children}
         </a>
+        
     )
 }
 

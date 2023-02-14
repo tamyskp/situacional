@@ -10,54 +10,32 @@ import DisplayText from "../../components/atoms/display-text";
 import bannerImg from "../../assets/banner.jpg";
 import contaImg from "../../assets/conta.jpg";
 
+// utils
+import serviceList from "../../utils/service-list";
+
+
 function Home() {
-    const serviceCards = [
-        {
-            children: 'Ícone',
-            title: 'Departamento Pessoal',
-            text:  'Adquira o melhor e mais rápido atendimento na área de DP. Buscamos sempre as melhores soluções legais para todas as situações trabalhistas. Nossa meta e sempre atingir a melhor performance e o menor custo em todas as decisões. Solicite orientação aos seus funcionários para entendimento de seus direitos e cumprimento de suas obrigações: Atinja alta performance aproximando sua equipe.',
-            route: '/'
-        },
-        {
-            children: 'Ícone',
-            title: 'Departamento financeiro',
-            text:  'Receba o melhor assessoramento em contas a pagar e controle de pagamentos. Escolha entre o sistema de controle de contas correntes "compartilhadas" onde efetuamos todos os pagamentos pela própria conta corrente do condomínio de forma a dar maior transparência aos fatos ou, simples programação de pagamentos sob a autorização de responsáveis financeiros de sua organização. Nossa ideia, e de acordo com a situação, facilitar de dar transparência aos fatos financeiros que serão conciliados no cruzamento dos documentos com os extratos bancários.',
-            route: '/'
-        },
-        {
-            children: 'Ícone',
-            title: 'Departamento contábil',
-            text:  'Busque a melhor classificação e elaboração do plano de contas de forma a simplificar seus relatórios obtendo facilidade no entendimento da distribuição das receitas e despesas e, facilitando a conciliação com os extratos bancários. Solicite a assessoria a assembleias, transcrição e registros de ATAS, Convenções etc. Obtenha real controle sobre as alterações da responsabilidade legal sobre o CNPJ.',
-            route: '/'
-        },
-        {
-            children: 'Ícone',
-            title: 'Controle de inadimplência',
-            text:  'Conjunto de técnicas e ferramentas para auxiliar nos contatos aos inadimplentes visando maior rapidez no retorno financeiro. Solicite as planilhas de controle atualizadas para apresentação ao seu corpo jurídico ou solicite-nos a plataforma para resolução da inadimplência. Nosso caminho é bem traçado e direcionado: Aviso de cobrança, Solicitação de conciliação, cobrança extrajudicial e cobrança judicial.',
-            route: '/'
-        },
-        {
-            children: 'Ícone',
-            title: 'Acessoria Situacional',
-            text:  'Avalie competências. Conheça ferramentas e busque os melhores caminhos para gestão de sua organização. Buscaremos e trabalharemos conjuntamente nas melhorores soluções para cada situação.',
-            route: '/'
-        },
-    ];
     return (
         <div className="page-content">
             <Section bg={bannerImg}>
                 <h1>As solucões ideais para as necessidades do seu condomínio</h1>
                 <p>Para condomínios e associações residenciais, comerciais, mistos e outros seguimentos, buscamos entender suas reais necessidades para criar uma linha personalizada no atendimento. </p>
+                <hr/>
             </Section>
-            <CardList cards={serviceCards} />
+            <div style={{
+                transform: 'translateY(-6em)',
+                marginBottom: '-3em'
+            }} >
+                <CardList cards={serviceList} />
+            </div>
             <Section>
                 <h2>Como acessar a sua área do cliente</h2>
                 <p>Confira nosso tutorial em vídeo, ou acesse o nosso passo a passo.</p>
-                <Button type="primary">Acessar passo a passo</Button>
+                <Button big>Acessar passo a passo</Button>
             </Section>
             <Section color="var(--theme)">
                 <h2>A sua vontade de se tornar um excelente gestor com certeza casa com a nossa vontade em sermos os melhores colaboradores.</h2>
-                <Button type="primary">Entre em contato</Button>
+                <Button primary big>Entre em contato</Button>
             </Section>
             <Section align="left">
                 <h2>Porque escolher a Situacional</h2>

@@ -27,9 +27,9 @@ code {
 }
 
 hr {
-  padding-bottom: 1.5em;
-  margin-bottom: 1.5em;
-  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 2.5em;
+  margin-bottom: 2.5em;
+  border: none;
 }
 
 h1 {

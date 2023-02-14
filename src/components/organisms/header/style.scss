@@ -28,6 +28,9 @@
         display: flex;
         flex-wrap: nowrap;
         align-items: center;
+        > p {
+            margin-right: 1em;
+        }
     }
     &__menu {
         display: flex;

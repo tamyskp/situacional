@@ -12,14 +12,16 @@
     position: relative;
     border: 2px solid var(--interaction);
     &-primary {
-        @extend .btn;
         background: var(--interaction);
         color: #fff;
     }
     &-secondary {
-        @extend .btn;
         background: transparent;
         color: var(--interaction);
         font-weight: bold;
+    }
+    &-big {
+        font-size: 16px;
+        padding: 0.75em 1.75em;
     }
 }
