@@ -1,10 +1,15 @@
 import React from "react";
 import './style.scss';
 
+// components
+import Section from "../../components/molecules/section";
+
 function Services() {
     return (
-        <div>
-            <h1>Serviços</h1>
+        <div className="intern">
+          <Section gray align="left">
+            <h2>Nossos serviços</h2>
+          </Section>
         </div>
     )
 }

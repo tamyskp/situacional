@@ -6,8 +6,9 @@
   border-bottom: 1px solid var(--theme-lighten);
   width: 100%;
   position: relative;
+  margin-bottom: 1em;
   &::-webkit-input-placeholder {
-    color: --theme-lighten;
+    color: var(--theme-lighten);
   }
   &-label {
     display: block;
@@ -15,5 +16,8 @@
   &-holder {
     position: relative;
     margin-bottom: 1em;
+  }
+  &[type="textarea"] {
+    height: 8em;
   }
 }

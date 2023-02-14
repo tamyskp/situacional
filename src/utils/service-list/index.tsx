@@ -4,36 +4,41 @@ import * as I from "../icons/services";
 const serviceList = [
     {
         children: I.departamentoPessoal,
+        label: 'Performance',
         title: 'Departamento Pessoal',
-        text:  'Adquira o melhor e mais rápido atendimento na área de DP. Buscamos sempre as melhores soluções legais para todas as situações trabalhistas. Nossa meta e sempre atingir a melhor performance e o menor custo em todas as decisões. Solicite orientação aos seus funcionários para entendimento de seus direitos e cumprimento de suas obrigações: Atinja alta performance aproximando sua equipe.',
+        text:  'O melhor e mais rápido atendimento na área de DP, com as soluções legais de melhor custo e benefício.',
         route: '/servicos/departamento-pessoal'
 
     },
     {
         children: I.departamentoFinanceiro,
+        label: 'Transparência',
         title: 'Departamento financeiro',
-        text:  'Receba o melhor assessoramento em contas a pagar e controle de pagamentos. Escolha entre o sistema de controle de contas correntes "compartilhadas" onde efetuamos todos os pagamentos pela própria conta corrente do condomínio de forma a dar maior transparência aos fatos ou, simples programação de pagamentos sob a autorização de responsáveis financeiros de sua organização. Nossa ideia, e de acordo com a situação, facilitar de dar transparência aos fatos financeiros que serão conciliados no cruzamento dos documentos com os extratos bancários.',
+        text:  'Assessoramento em contas a pagar com sistema de controle "compartilhado" para efetuar pagamentos pela própria conta do condomínio.',
         route: '/servicos/departamento-financeiro'
 
     },
     {
         children: I.departamentoContabil,
+        label: 'Facilidade',
         title: 'Departamento contábil',
-        text:  'Busque a melhor classificação e elaboração do plano de contas de forma a simplificar seus relatórios obtendo facilidade no entendimento da distribuição das receitas e despesas e, facilitando a conciliação com os extratos bancários. Solicite a assessoria a assembleias, transcrição e registros de ATAS, Convenções etc. Obtenha real controle sobre as alterações da responsabilidade legal sobre o CNPJ.',
+        text:  'Elaboralção de plano de contas simplificado, para uma maior facilidade no entendimento da distribuição das receitas e despesas.',
         route: '/servicos/departamento-contabil'
 
     },
     {
         children: I.controleInadimplencia,
-        title: 'Controle de inadimplência',
-        text:  'Conjunto de técnicas e ferramentas para auxiliar nos contatos aos inadimplentes visando maior rapidez no retorno financeiro. Solicite as planilhas de controle atualizadas para apresentação ao seu corpo jurídico ou solicite-nos a plataforma para resolução da inadimplência. Nosso caminho é bem traçado e direcionado: Aviso de cobrança, Solicitação de conciliação, cobrança extrajudicial e cobrança judicial.',
+        label: 'Controle',
+        title: 'Gestão de inadimplência',
+        text:  'Ferramentas e sistema para garantir a sua segurança e retorno financeiro com avisos, planilhas de controle e plataforma para resolução da inadimplência.',
         route: '/servicos/controle-inadimplencia'
 
     },
     {
         children: I.acessoria,
+        label: 'Personalização',
         title: 'Acessoria Situacional',
-        text:  'Avalie competências. Conheça ferramentas e busque os melhores caminhos para gestão de sua organização. Buscaremos e trabalharemos conjuntamente nas melhorores soluções para cada situação.',
+        text:  'Acessoria completa e personalizada para avaliar as competências e ferramentas que serão os melhores caminhos para gestão de sua organização',
         route: '/servicos/acessoria-situacional'
 
     },

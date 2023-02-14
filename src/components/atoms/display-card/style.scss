@@ -1,9 +1,10 @@
 a.display-card {
-    height: 100%;
+    height: auto;
     width: 100%;
     background: var(--theme);
     padding: 1.5em;
-    display: block;
+    display: flex;
+    flex-direction: column;
     position: relative;
     overflow: hidden;
     border-left: 1px solid var(--theme-lighten);
@@ -26,12 +27,42 @@ a.display-card {
         width: 100%;
         top: 0;
     }
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1em;
+        label {
+            text-transform: uppercase;
+            font-size: 14px;
+            letter-spacing: 2px;
+            color: var(--highlight);
+        }
+        svg {
+            width: 1.5em;
+            height: 1.5em;
+        }
+    }
     h3 {
         line-height: 1.2;
+        margin-bottom: 0em;
     }
-    svg {
-        width: 1.5em;
-        height: 1.5em;
-        margin-bottom: 0.25em;
+    p {
+        align-self: stretch;
+        display: block;
+        height: 100%;
+        font-size: 16px;
+    }
+    span {
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 100%;
+        color:var(--highlight);
+        margin-top: 1em;
+        i {
+            margin-left: .5em;
+        }
     }
 }

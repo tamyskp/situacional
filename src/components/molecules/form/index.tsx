@@ -13,7 +13,7 @@ function Form(props:any) {
             <form>
                 {children}
             </form>
-            <Button type="submit">Enviar</Button>
+            <Button primary big type="submit">Enviar</Button>
         </div>
     )
 }

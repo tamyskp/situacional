@@ -3,7 +3,6 @@ import './style.scss';
 
 function Input(props:any) {
     const placeholder = props.placeholder;
-    const value = props.value;
     const type = props.type;
     const label = props.label;
 

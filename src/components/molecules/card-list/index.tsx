@@ -17,6 +17,7 @@ function CardList(props:any) {
                     <DisplayCard 
                         children={cards.children}
                         title={cards.title} 
+                        label={cards.label} 
                         text={cards.text} 
                         route={cards.route} 
                         key={index} 

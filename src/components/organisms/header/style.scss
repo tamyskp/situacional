@@ -6,7 +6,7 @@
         background: var(--theme);
         padding: .5em 0;
         color: #fff;
-        font-size: 16px;
+        font-size: 12px;
         // Inside grid
         display: grid;
         grid-template-columns: repeat(12, 1fr);
@@ -28,6 +28,7 @@
         display: flex;
         flex-wrap: nowrap;
         align-items: center;
+        justify-content: flex-end;
         > p {
             margin-right: 1em;
         }

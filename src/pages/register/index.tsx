@@ -1,12 +1,17 @@
 import React from "react";
-import './style.scss';
+import "./style.scss";
+
+// components
+import Section from "../../components/molecules/section";
 
 function Register() {
-    return (
-        <div>
-            <h1>Primerio acesso</h1>
-        </div>
-    )
+  return (
+    <div className="intern">
+      <Section gray align="left">
+        <h2>Primeiro acesso</h2>
+      </Section>
+    </div>
+  );
 }
 
 export default Register;

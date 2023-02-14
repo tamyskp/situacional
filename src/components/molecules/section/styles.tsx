@@ -11,8 +11,8 @@ export const SectionHolder = styled.section`
 `;
     
 export const Section = styled.div`
-    grid-column-start: 2;
-    grid-column-end: 12;
+    grid-column-start: 3;
+    grid-column-end: 11;
     display: flex;
     flex-direction: column;
     padding: 6em 8em;

@@ -6,7 +6,8 @@ function Logo(props:any) {
 
     return (
         <div className={`logo ${isWhite ? 'white' : ''}`}>
-            Situacional
+            <h1>Situacional</h1>
+            <label>Administração e Acessoria Contábil</label>
         </div>
     )
 }
