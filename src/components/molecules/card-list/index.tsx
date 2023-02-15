@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 
 // components
 import DisplayCard from '../../atoms/display-card';

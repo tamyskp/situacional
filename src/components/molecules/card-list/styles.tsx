@@ -6,8 +6,8 @@ export const CardListHolder = styled.div`
     grid-template-columns: repeat(12, 1fr);
 `;
 export const Cards = styled.div`
-    grid-column-start: 2;
-    grid-column-end: 12;
+    grid-column-start: 1;
+    grid-column-end: 13;
     display: flex;
     flex-wrap: nowrap;
     justify-content: stretch;

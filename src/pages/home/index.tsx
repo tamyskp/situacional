@@ -25,14 +25,11 @@ function Home() {
                 <h1>Soluções personalizadas para transformar sua gestão</h1>
                 <p>Para condomínios e associações residenciais, comerciais, mistos e outros seguimentos. Estudamos suas necessidades para criar uma linha personalizada no atendimento e você poder fazer sua gestão com tranquilidade e segurança. Conheça nossos serviços:</p>
                 <Button big primary>Entrar em contato</Button>
-                <hr/>
+                <span className="space"></span>
             </Section>
-            <div style={{
-                transform: 'translateY(-6em)',
-                marginBottom: '-6em'
-            }} >
+            <Section align="left" translate>
                 <CardList cards={serviceList} />
-            </div>
+            </Section>
             <Section padded align="left">
                 <h2>Porque escolher a Situacional</h2>
                 <p>Somos uma empresa embrionária que difere das demais por dar atendimento personalizado a cada cliente. A utilização da administração financeira compartilhada foi uma idéia de seu fundador, Roberto Pereira, ao entender que a receita de cada organização deve sempre estar sob o controle da mesma.</p>

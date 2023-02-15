@@ -16,4 +16,10 @@ export const Section = styled.div`
     display: flex;
     flex-direction: column;
     padding: 6em 8em;
+
+    @media screen and (max-width: 1620px) {
+        grid-column-start: 2;
+        grid-column-end: 12;
+    }
+
 `;

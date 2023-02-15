@@ -1,0 +1,25 @@
+.list-group {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    li {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-bottom: 1.5em;
+    }
+    span {
+        width: 2.5em;
+        height: 2.5em;
+        background: var(--theme);
+        border-radius: 2px;
+        margin-right: 0.75em;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    div * {
+        margin: 0 0 .25em 0;
+    }
+}
